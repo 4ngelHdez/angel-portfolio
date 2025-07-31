@@ -69,7 +69,8 @@ Utilicé Python y librerías como pandas, numpy, seaborn, plotly, scipy y statsm
 
 A continuación, presento algunas de las visualizaciones generadas durante el análisis del mercado de videojuegos:
 
-   ![Embudo de Eventos](https://github.com/4ngelHdez/angel-portfolio/blob/main/assest/embudo_de_eventos.png)
+   Embudo de Eventos<br>
+   <img width="674" height="450" alt="Image" src="https://github.com/user-attachments/assets/d821d613-c028-4c31-8e19-af71a59186ef" />
 
   Según el embudo un poco mas de 182 K usuarios hicieron login en la página.<br>
   Más de 120.8 K entraron a la página del producto.<br>
