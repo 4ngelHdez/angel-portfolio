@@ -69,14 +69,13 @@ Utilicé Python y librerías como pandas, numpy, seaborn, plotly, scipy y statsm
 
 A continuación, presento algunas de las visualizaciones generadas durante el análisis del mercado de videojuegos:
 
-   Embudo de Eventos<br>
    <img width="674" height="450" alt="Image" src="https://github.com/user-attachments/assets/d821d613-c028-4c31-8e19-af71a59186ef" />
 
   Según el embudo un poco mas de 182 K usuarios hicieron login en la página.<br>
   Más de 120.8 K entraron a la página del producto.<br>
   De aquí esta un poco invertido el embudo, lo ideal sería que los usuarios primero agregaran al carrito y luego realizaran la compra pero no, más de 60.3 K usuarios realizaron la compra y alrededor de 60.1 K entraron a la página del carrito.
   
-   ![Embudo de Eventos en el Grupo de Control](https://github.com/4ngelHdez/angel-portfolio/blob/main/assest/embudo_eventos_grupo_control.png)
+   <img width="674" height="450" alt="Image" src="https://github.com/user-attachments/assets/8918781d-9278-4fea-a686-618f6cb66e21" />
 
    En el grupo de control la interface normal genero mejor conversión que la nueva interface con recomendaciones para los usuarios, ya que la conversión fue mayor en las etapas del embudo:<br>
     - En la etapa de product_page por 1.94 %. <br>
@@ -84,7 +83,7 @@ A continuación, presento algunas de las visualizaciones generadas durante el an
     <br>
     Solo en la etapa de product_cart el grupo de recomendación fue mejor por 10.18%.
  
-   ![Embudo de Eventos en el Grupo de Prueba](https://github.com/4ngelHdez/angel-portfolio/blob/main/assest/embudo_eventos_grupo_prueba.png)
+   <img width="674" height="450" alt="Image" src="https://github.com/user-attachments/assets/949f6b48-ac00-4020-85d7-099c8cfd5d66" />
 
    En el grupo de prueba la interface normal genero mejor conversión que la nueva interface con recomendaciones para los usuarios, ya que la conversión fue mayor en todas las etapas del embudo:<br>
     - En la etapa de product_page por 12.39 %. <br>
@@ -125,15 +124,15 @@ El proyecto se basó en el análisis de un conjunto de datos de facturación de 
 
 A continuación, presento algunas de las visualizaciones generadas durante el análisis de la facturación:
 
-   ![Ventas por forma de pago](https://github.com/4ngelHdez/angel-portfolio/blob/main/assest/ventas_forma_pago.png)
+   <img width="674" height="450" alt="Image" src="https://github.com/user-attachments/assets/ab8d9e07-dce3-4625-9412-3647ec617023" />
 
   En esta gráfica se puede ver como en las diferentes tiendas se distribuye la preferencia de los usuarios por realizar sus compras con tarjeta de crédito y debito, seguido por la compra en efectivo y dejan por último el método de pago de Nequi.
   
-   ![Ventas por ciudad](https://github.com/4ngelHdez/angel-portfolio/blob/main/assest/ventas_por_ciudad.png)
+   <img width="674" height="450" alt="Image" src="https://github.com/user-attachments/assets/5a9fe4c9-f8cf-4b93-bf95-a448bd0d6e38" />
 
    En esta visualización de puede observar la facturación de las ventas en las diferentes ciudades en las que se distribuye el producto, así como la preferencia de los usuarios en los métodos de pago.
  
-   ![Ventas por País](https://github.com/4ngelHdez/angel-portfolio/blob/main/assest/ventas_por_pais.png)
+   <img width="674" height="450" alt="Image" src="https://github.com/user-attachments/assets/06b41934-44f6-48a6-8c77-297ed4b7c362" />
 
    Y por último, aquí se puede observar la facturación de las ventas en los diferentes paises en los que se distribuye el producto, y de igual manera, la preferencia de los usuarios en los métodos de pago.
 
@@ -147,7 +146,7 @@ A continuación, puedes ver uno de los dashboards que he desarrollado:
     
 <div style="text-align: center; margin-top: 20px;">
   <a href="https://public.tableau.com/app/profile/angel.hernandez.sosa/viz/Proyectofinal14_17490762916930/Dashboard1?publish=yes" target="_blank">
-    <img src="https://github.com/4ngelHdez/angel-portfolio/blob/main/assest/logotableau.png" alt="Ver Dashboard en Tableau" style="width: 300px; height: auto;" />
+    <img width="384" height="83" alt="Image" src="https://github.com/user-attachments/assets/3885db47-5a55-4ef9-8f2c-fd6c39f4ed36" />
   </a>
 </div>
 
