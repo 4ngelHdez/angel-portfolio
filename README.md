@@ -1,7 +1,5 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-# Data Analyst
-
 ## Acerca de mí
 
 Soy Licenciado en Administración con una Maestría en Finanzas, un nivel de inglés intermedio (B2) y más de 10 años de experiencia trabajando en el sector minero como analista de costos, donde me especialice en el análisis de costos, monitoreo de KPI's, visualizaciones, elaboración de reportes de costos y control de presupuestos económicos, actividades con las que he impulsado mejoras medibles en el rendimiento, contribuyendo al crecimiento del negocio y a la eficiencia operativa.
