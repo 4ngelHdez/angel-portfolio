@@ -1,6 +1,6 @@
-#title: Angel Hernández
-logo: [https://avatars.githubusercontent.com/u/181284113?v=4]
+title: Angel Hernández
+logo: assest/img/AngelHdez.jpeg
 description: ¡Que tal! Soy Angel Hernández y te doy la bienvenida a mi portafolio de proyectos de Data Analysis.
 show_downloads: false
-theme: jekyll-remote-theme
+theme: jekyll-theme-midnight
 include: [styles.css]
