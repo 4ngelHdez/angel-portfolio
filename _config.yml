@@ -1,6 +1,7 @@
+title: Angel Hernández
 layout: default
-logo: assets/img/angelgit.png
+logo: /assets/img/angelgit.png
 description: ¡Que tal! Soy Angel Hernández y te doy la más cordial bienvenida a mi portafolio de proyectos de Data Analysis.
-#show_downloads: false
-theme: jekyll-theme-midnight
+show_downloads: false
+theme: jekyll-theme-minimal
 include: [styles.css]
