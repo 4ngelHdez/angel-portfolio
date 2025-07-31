@@ -1,4 +1,5 @@
-<link rel="stylesheet" type="text/css" href="styles.css">
+
+![I](/assets/img/angelgit.png)
 
 ## Acerca de mí
 
