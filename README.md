@@ -9,14 +9,14 @@ Soy Licenciado en Administración con una Maestría en Finanzas, un nivel de ing
 
 ## Educación
 - Maestría en Finanzas | Centro de Estudios Superiores en Negocios y Humanidades (__Dic 2019__)
-- Licenciatura en Administración | Instituto Tecnológico de Durango 2016 (__Agosto 2016__)
+- Licenciatura en Administración | Instituto Tecnológico de Durango (__Agosto 2016__)
 
 ## Cursos y Certificaciones
-- Bootcamp para Data Analyst en Tripleten (_Mayo 2025_)
-- Curso Data Analitycs de Google en Coursera (_Marzo 2024_)
+- Bootcamp para Data Analyst en Tripleten (__Mayo 2025__)
+- Curso Data Analitycs de Google en Coursera (__Marzo 2024__)
 
 ## Experiencia Profesional
-**Analista de costos @ Grupo Minero Bacis (_Abril 2017 - Enero 2025_)**
+**Analista de costos @ Grupo Minero Bacis (__Abril 2017 - Enero 2025__)**
 - Analizar datos de costos mensuales y elaborar visualizaciones que faciliten la toma de decisiones, para que faciliten la eficiencia operativa y mejor uso de los recursos.
 - Monitorieo de indicadores claves de desempeño (_KPI's_) que permitan a los jefes de departamento tomar acciones en caso de que estos estuvieran por arriba de lo presupuestado.
 
