@@ -8,8 +8,8 @@ Soy Licenciado en Administración con una Maestría en Finanzas, un nivel de ing
 ---
 
 ## Educación
-- Maestría en Finanzas | Centro de Estudios Superiores en Negocios y Humanidades (__Dic 2019__)
-- Licenciatura en Administración | Instituto Tecnológico de Durango (__Agosto 2016__)
+- Maestría en Finanzas | Centro de Estudios Superiores en Negocios y Humanidades (__2019__)
+- Licenciatura en Administración | Instituto Tecnológico de Durango (__2016__)
 
 ## Cursos y Certificaciones
 - Bootcamp para Data Analyst en Tripleten (__Mayo 2025__)
