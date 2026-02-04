@@ -65,22 +65,22 @@ Utilicé Power BI, Power Query, DAX y visualizaciones como segmentaciones de dat
 
 A continuación, presento algunas de las visualizaciones generadas para los reportes de los estados financieros:
 
-   <img width="674" height="450" alt="Image" src="https://github.com/4ngelHdez/angel-portfolio/blob/main/assets/img/Estado%20de%20Resultados.png" />
+   <img width="674" height="450" alt="Image" src="https://github.com/4ngelHdez/angel-portfolio/raw/main/assets/img/Estado%20de%20Resultados.png" />
 
   Este dashboard permite identificar rápidamente variaciones significativas en ingresos y costos, apoyando decisiones sobre rentabilidad y control de gastos.<br>
   De igual manera, se puede seleccionar el año, el mes, si se quiere solo la información mensual o acumulada al mes seleccionado y la escala si se quiere ver en pesos, miles o millones de pesos.<br>
   
-   <img width="674" height="450" alt="Image" src="https://github.com/4ngelHdez/angel-portfolio/blob/main/assets/img/Balance.png" />
+   <img width="674" height="450" alt="Image" src="https://github.com/4ngelHdez/angel-portfolio/raw/main/assets/img/Balance.png" />
 
    En el reporte del Balance General se puede seleccionar el año y el mes, así mismo, en la visualización se puede ver el Activo, Pasivo y Patrimonio, se puede ir agregando los niveles de detalle para ver las cuentas y subcuentas.<br>
    Se cuenta con un análisis vertical y con un análisis horizontal de la información, lo que nos permite ver comparaciones con el año anterior y con el mes anterior, para conocer las fluctuaciones en las cuentas.<br>
    Esto facilita la detección de riesgos de líquidez, apalancamiento excesivo o cambios estructurales en la posición financiera.<br>
  
-   <img width="674" height="450" alt="Image" src="https://github.com/4ngelHdez/angel-portfolio/blob/main/assets/img/KPIs.png" />
+   <img width="674" height="450" alt="Image" src="https://github.com/4ngelHdez/angel-portfolio/raw/main/assets/img/KPIs.png" />
 
    Los Indicadores de desempeño nos permiten conocer el estado actual de la empresa, su actividad operativa, los diferentes índices de endeudamiento, su líquidez y la utilidad que tienen, se puede modificar según el mes y el año que se desee conocer.<br>
 
-   <img width="674" height="450" alt="Image" src="https://github.com/4ngelHdez/angel-portfolio/blob/main/assets/img/FCL.png" />
+   <img width="674" height="450" alt="Image" src="https://github.com/4ngelHdez/angel-portfolio/raw/main/assets/img/FCL.png" />
 
    Y por ultimo el Flujo de Caja Total, nos sirve para medir la líquidez y la salud financiera real de una empresa, rastreando el dinero que entra y sale en un periodo.<br>
    El modelo garantiza que el Flujo de Caja neto concilie con el efectivo disponible, validando la consistencia financiera del reporte.<br>
