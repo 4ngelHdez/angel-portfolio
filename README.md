@@ -2,7 +2,7 @@
 
 ## Acerca de mí
 
-Soy Licenciado en Administración con una Maestría en Finanzas, un nivel de inglés intermedio (B2) y más de 10 años de experiencia trabajando en el sector minero como analista de costos, donde me especialice en el análisis de costos, monitoreo de KPI's, visualizaciones, elaboración de reportes de costos y control de presupuestos económicos, actividades con las que he impulsado mejoras medibles en el rendimiento, contribuyendo al crecimiento del negocio y a la eficiencia operativa.
+Soy Licenciado en Administración con Maestría en Finanzas, nivel de inglés intermedio (B2) y más de 10 años de experiencia en el sector minero como analista de costos. A lo largo de mi trayectoria he liderado procesos de presupuesto, forecasting y planeación financiera en entornos industriales, especializándome en el análisis de costos, control presupuestal y monitoreo de KPIs. Cuento con experiencia comprobable en la construcción y optimización de modelos de P&L, Balance General y Flujo de Efectivo para apoyar la toma de decisiones estratégicas y la asignación de capital. He generado mejoras medibles en el desempeño del negocio, incluyendo un incremento del 15% en la precisión de proyecciones y una reducción de 24 horas en tiempos de reporte. Combino una sólida base financiera con habilidades avanzadas en Excel, SQL y Power BI para transformar datos complejos en insights claros y accionables para equipos de liderazgo, contribuyendo al crecimiento del negocio y a la eficiencia operativa.
 
 #### Habilidades Técnicas: Python, SQL, Tableau, Power Bi, ETL, Excel, Dashboards.
 ---
@@ -15,82 +15,76 @@ Soy Licenciado en Administración con una Maestría en Finanzas, un nivel de ing
 - Bootcamp para Data Analyst en Tripleten (__Mayo 2025__)
 - Curso Data Analitycs de Google en Coursera (__Marzo 2024__)
 
-## Experiencia Profesional
-**Analista de costos @ Grupo Minero Bacis (__Abril 2017 - Enero 2025__)**
-- Analizar datos de costos mensuales y elaborar visualizaciones que faciliten la toma de decisiones, para que faciliten la eficiencia operativa y mejor uso de los recursos.
-- Monitorieo de indicadores claves de desempeño (_KPI's_) que permitan a los jefes de departamento tomar acciones en caso de que estos estuvieran por arriba de lo presupuestado.
-
 ## Proyectos
 
-### Análisis de Prueba A/B para Optimización de Interfaz en Comercio Electrónico
+### Automatización y análisis de Estados Financieros en Power BI para toma de decisiones ejecutivas.
 
 **Descripción del Proyecto**  
-Este proyecto consistió en el análisis de una prueba A/B realizada por una tienda en línea internacional, con el objetivo de evaluar la efectividad de una nueva interfaz que incluía un sistema de recomendaciones. Aunque la prueba fue abandonada parcialmente, se nos proporcionaron los datos para realizar una evaluación completa de su impacto. El análisis cubrió el periodo del 7 de diciembre de 2020 al 1 de enero de 2021.
+Antes del proyecto, los estados financieros se elaboraban manualmente en Excel a partir de múltiples balanzas de comprobación, lo que generaba reprocesos, riesgos de error y retrasos en la entrega de información a dirección. Este proyecto buscó centralizar, estandarizar y automatizar la generación de estados financieros en Power BI como: el Estado de Resultados (P%L), Balance general (Balance Sheet) y Flujo de Caja Total (Cash Flow).
 
 **Objetivos**  
-  * Verificar la calidad e integridad de los datos: duplicados, nulos y tipos de datos.<br>
-  * Evaluar la equidad entre los grupos de prueba y control.<br>
-  * Analizar el comportamiento de los usuarios en las diferentes etapas del embudo de conversión.<br>
-  * Comparar la conversión entre la interfaz original y la interfaz con recomendaciones.<br>
-  * Aplicar una prueba estadística (prueba Z) para determinar si las diferencias observadas son significativas.<br>
+  * Estandarizar y tabular la balanza de comprobación.<br>
+  * Desarrollar una función reutilizable para futuras balanzas.<br>
+  * Diseñar un modelo de datos robusto en Power BI.<br>
+  * Automatizar la generación de:<br>
+    * Catálogo de Cuentas.<br>
+    * Estado de Resultados. <br>
+    * Balance General. <br>
+    * Indicadores de Desempeño.<br>
+    * Flujo de Caja.<br>
+  * Construir dashboards dinámicos para análisis financiero y toma de decisiones.<br>
 
 
 **Metodología**  
-Utilicé Python y librerías como pandas, numpy, seaborn, plotly, scipy y statsmodels para realizar un análisis exploratorio y evaluar la validez de la prueba A/B. El trabajo incluyó:<br>
+Utilicé Power BI, Power Query, DAX y visualizaciones como segmentaciones de datos y Zebra. El trabajo incluyó:<br>
 
-   - Limpieza de datos: conversión de fechas, detección de valores nulos y duplicados, y depuración de usuarios presentes en ambos grupos.<br>
-   - Creación de embudos de conversión para visualizar el comportamiento en cada etapa: login, vista de producto, carrito y compra.<br>
-   - Cálculo de métricas clave (tasa de conversión, coeficientes de variación).<br>
-   - Comparación gráfica de los grupos A y B.<br>
-   - Aplicación de una prueba Z para contrastar las conversiones entre interfaces.<br>
+   - Estandarización y limpieza de datos contables para asegurar consistencia entre periodos y reportes. <br>
+   - Diseño de un modelo estrella (fact–dim) para análisis financiero eficiente.<br>
+   - Creación de calendarios a partir de la base de datos.<br>
+   - Cálculo de medidas con DAX.<br>
+   - Comparación gráfica del Estado de Resultados, Balance General y Cash Flow.<br>
+   - Implementación de controles de calidad y validaciones para asegurar la integridad financiera de los reportes.<br>
 
 **Conclusiones**  
-   * Distribución desigual de usuarios y eventos: El grupo A tenía una participación significativamente mayor en la prueba de recomendaciones (14215 eventos frente a 3979 en grupo B).<br>
-
-   * Conversión más alta con la interfaz tradicional:<br>
-      * En el grupo de control, la interfaz tradicional superó a la interfaz con recomendaciones en la conversión en todas las etapas clave (hasta 7.23% más en “purchase”).<br>
-      * En el grupo de prueba, la interfaz tradicional también mostró mejores resultados (hasta 12.39% más en “product_page”).<br>
-
-   * No se encontró una diferencia estadísticamente significativa entre los grupos, según la prueba Z (valor p = 0.099), por lo que no se rechaza la hipótesis nula.<br>
-
-   * Recomendación: No continuar con la implementación del sistema de recomendaciones, ya que no demostró mejoras en la conversión y puede resultar contraproducente.<br>
-
+   * Reducción del tiempo de elaboración de estados financieros de 48 horas a 2 horas.<br>
+   * Eliminación de reprocesos manuales en Excel.<br>
+   * Mayor confiabilidad en conciliaciones entre Flujo de Caja y efectivo disponible.<br>
+   * Con el dashboard dinamico el usuario puede tener una fácil explicación de en que cuentas y/o rubros fue utilizado el dinero.<br>
+   * Las visualizaciones se pueden comprar por periodos contra el mes anterior o el año anterior para poder visualizar los cambios en los reportes financieros.<br>
 
 **Lenguajes y herramientas principales**  
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
-  <img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=yellow" />
-  <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_Query-0078D4?style=for-the-badge&logo=Microsoft%20Power%20Platform&logoColor=white" />
+  <img src="https://img.shields.io/badge/DAX-1F2937?style=for-the-badge&logo=calculator&logoColor=white" />
+  <img src="https://img.shields.io/badge/Zebra_BI-FF9900?style=for-the-badge&logo=chart-bar&logoColor=white" />
 </div>
 
 **Visualizaciones**
 
-A continuación, presento algunas de las visualizaciones generadas durante el análisis del mercado de videojuegos:
+A continuación, presento algunas de las visualizaciones generadas para los reportes de los estados financieros:
 
-   <img width="674" height="450" alt="Image" src="https://github.com/user-attachments/assets/d821d613-c028-4c31-8e19-af71a59186ef" />
+   <img width="674" height="450" alt="Image" src="https://github.com/4ngelHdez/angel-portfolio/blob/main/assets/img/Estado%20de%20Resultados.png" />
 
-  Según el embudo un poco mas de 182 K usuarios hicieron login en la página.<br>
-  Más de 120.8 K entraron a la página del producto.<br>
-  De aquí esta un poco invertido el embudo, lo ideal sería que los usuarios primero agregaran al carrito y luego realizaran la compra pero no, más de 60.3 K usuarios realizaron la compra y alrededor de 60.1 K entraron a la página del carrito.
+  Este dashboard permite identificar rápidamente variaciones significativas en ingresos y costos, apoyando decisiones sobre rentabilidad y control de gastos.<br>
+  De igual manera, se puede seleccionar el año, el mes, si se quiere solo la información mensual o acumulada al mes seleccionado y la escala si se quiere ver en pesos, miles o millones de pesos.<br>
   
-   <img width="674" height="450" alt="Image" src="https://github.com/user-attachments/assets/8918781d-9278-4fea-a686-618f6cb66e21" />
+   <img width="674" height="450" alt="Image" src="https://github.com/4ngelHdez/angel-portfolio/blob/main/assets/img/Balance.png" />
 
-   En el grupo de control la interface normal genero mejor conversión que la nueva interface con recomendaciones para los usuarios, ya que la conversión fue mayor en las etapas del embudo:<br>
-    - En la etapa de product_page por 1.94 %. <br>
-    - En purchase por 7.23 %.<br>
-    <br>
-    Solo en la etapa de product_cart el grupo de recomendación fue mejor por 10.18%.
+   En el reporte del Balance General se puede seleccionar el año y el mes, así mismo, en la visualización se puede ver el Activo, Pasivo y Patrimonio, se puede ir agregando los niveles de detalle para ver las cuentas y subcuentas.<br>
+   Se cuenta con un análisis vertical y con un análisis horizontal de la información, lo que nos permite ver comparaciones con el año anterior y con el mes anterior, para conocer las fluctuaciones en las cuentas.<br>
+   Esto facilita la detección de riesgos de líquidez, apalancamiento excesivo o cambios estructurales en la posición financiera.<br>
  
-   <img width="674" height="450" alt="Image" src="https://github.com/user-attachments/assets/949f6b48-ac00-4020-85d7-099c8cfd5d66" />
+   <img width="674" height="450" alt="Image" src="https://github.com/4ngelHdez/angel-portfolio/blob/main/assets/img/KPIs.png" />
 
-   En el grupo de prueba la interface normal genero mejor conversión que la nueva interface con recomendaciones para los usuarios, ya que la conversión fue mayor en todas las etapas del embudo:<br>
-    - En la etapa de product_page por 12.39 %. <br>
-    - En product_cart por 0.78 %.<br>
-    - En purchase por 3.00 %.
+   Los Indicadores de desempeño nos permiten conocer el estado actual de la empresa, su actividad operativa, los diferentes índices de endeudamiento, su líquidez y la utilidad que tienen, se puede modificar según el mes y el año que se desee conocer.<br>
 
-**Te invito a conocer más detalles del proyecto en el [repositorio completo](https://github.com/4ngelHdez/TestAB).**
+   <img width="674" height="450" alt="Image" src="https://github.com/4ngelHdez/angel-portfolio/blob/main/assets/img/FCL.png" />
+
+   Y por ultimo el Flujo de Caja Total, nos sirve para medir la líquidez y la salud financiera real de una empresa, rastreando el dinero que entra y sale en un periodo.<br>
+   El modelo garantiza que el Flujo de Caja neto concilie con el efectivo disponible, validando la consistencia financiera del reporte.<br>
+
 
 ---
 
